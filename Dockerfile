@@ -28,7 +28,7 @@ RUN rm -rf /var/lib/apt/lists/* \
     /usr/lib/node_modules/npm/man \
     /usr/lib/node_modules/npm/doc \
     /usr/lib/node_modules/npm/html \
-    /usr/lib/node_modules/npm/scripts
+    /usr/lib/node_modules/npm/scriptsgit 
 RUN npm cache verify
 RUN sed -i -e "s/bin\/ash/bin\/sh/" /etc/passwd
 
