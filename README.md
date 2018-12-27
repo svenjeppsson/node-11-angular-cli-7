@@ -13,5 +13,5 @@ docker pull xthinker/node-11-angular-cli-7.1
 Using the image in a `Dockerfile`
 
 ```bash
-FROM jeppsson/node-11-angular-cli-7.1
+FROM xthinker/node-11-angular-cli-7.1
 ```
