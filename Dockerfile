@@ -1,4 +1,4 @@
-FROM node:11.6-alpine as node-11-angular-cli-7.1
+FROM node:11.6-alpine as node-11-angular-cli-7.1.4
 
 LABEL authors="Sven Jepppsson"
 
@@ -11,4 +11,4 @@ RUN apk update \
   && sed -i -e "s/bin\/ash/bin\/sh/" /etc/passwd
 
 #Angular CLI
-RUN npm install -g @angular/cli@7.1
+RUN npm install -g @angular/cli@7.1.4
