@@ -1,4 +1,4 @@
-# node-11-angular-cli-7
+# node-11-angular-cli-7 inclusiv chrmomium
 
 Node 11.6 + Angular CLI 7+
 
